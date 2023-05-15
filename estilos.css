@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    font-style: italic;
+    background-image: url('https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }  
+
+  h2 {
+    color: white;
+  }  
+  
+  .centro {
+    text-align: center;
+  }
+  
+  .centro li {
+    display: inline-block;
+    margin: 10px;
+  }
+    
+  li {
+    text-align: center;
+  }
+  
+  #jugar {
+    color: white;
+    background-color: blue;
+  }
+  
+  #pasear {
+    color: white;
+    background-color: green;
+  }
+  
+  #leer {
+    color: white;
+    background-color: purple;
+  }
+  
+  #documentales {
+    color: white;
+    background-color: orange;
+  }
+  
+  #rodar {
+    color: white;
+    background-color: red;
+  }
+  

@@ -1,0 +1,60 @@
+body {
+    font-family: Oblique;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/392/527/small/web-page-on-a-laptop-screen-a-mobile-phone-is-lying-a-cloud-a-cloud-service-or-an-application-modern-technological-background-isometry-conceptual-banner-of-web-technologies-vector.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    color: white;
+  }  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px 16px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  li:nth-child(-n+5) {
+    background-color: lightblue;
+    color: darkblue;
+  }
+  
+  li:nth-child(-n+5):hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  li:nth-child(n+6) {
+    background-color: lightgreen;
+    color: darkgreen;
+  }
+  
+  li:nth-child(n+6):hover {
+    background-color: green;
+    color: white;
+  }
+  
+  ul li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  li:nth-last-child(-n+5) {
+    background-color: lightgreen;
+    color: darkgreen;
+  }
+  
+  li:nth-last-child(-n+5):hover {
+    background-color: green;
+    color: white;
+  }
+  

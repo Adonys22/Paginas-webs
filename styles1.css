@@ -1,0 +1,63 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url('https://i.pinimg.com/originals/34/09/bb/3409bb12ed05f0a8bf17832180d976c1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-width: 120px; 
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #1c2331;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #475b77;
+  }
+  
+  .error-message {
+    color: #d93025;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  
